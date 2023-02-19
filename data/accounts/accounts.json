@@ -1,0 +1,50 @@
+{
+    "alice": {
+        "address": "0x6FebeB89760c77164b8475cD6198d18efCFC1439",
+        "privKey": "5857172aec612e522616ce0e3797da2c20712912b761ca8f68c8e7a4779d2070"
+    },
+    "bob": {
+        "address": "0x3319ADf493B09E06b1FB48c729733CFFF521A6B7",
+        "privKey": "1e71ccf6666b982d92bdafd1a6dd713fb80b6373a685b9619c2c216544153fdb"
+    },
+    "charlie": {
+        "address": "0x93e38202482d9DB7dA0B60429813f87FEf3A30d0",
+        "privKey": "0x94e7a8b9007f597fc89f70fa1ab498df6a0e97f9e2c89872cc7a2e955a524f78"
+    },
+    "account1": {
+        "address": "0xeF6C8159B8F4749bc858578Be32173Ff31e5d8F0",
+        "privKey": "0x94cf0b921414914d820040dfd3fd5c09e510692910a96b90cc06d64cf9eaf195"
+    },
+    "account2": {
+        "address": "0x556a16EeEBD557C3E449fD68Fc3466b80071d0A5",
+        "privKey": "0x8482b1dd0256be1d51084411cca156ca162b9cbdaf335bf3bac4b142fdc37a85"
+    },
+    "account3": {
+        "address": "0x8f6c953977033622177843BE203E71EB00eCdbCc",
+        "privKey": "0xa31ea7c903d0775afeec006f98ad63f255a5bc6b453705eb6d60f4e9d148f0bf"
+    },
+    "account4": {
+        "address": "0xdF4F025146CbB303FC1770B2f2b792bA6a9CB395",
+        "privKey": "0xbda0e0fbea23987deead2b46c0ce267a3538dd5a5f6d60023e4143b7723c65b7"
+    },
+    "account5": {
+        "address": "0x39053D8AF4D260d72FCc360830Db513F0550F788",
+        "privKey": "0x8c2bec85800843b39ce6862195e74ac669cba4ab2913a214da1fd071cfa8f4df"
+    },
+    "account6": {
+        "address": "0x84969FFfd5ba58A2621e8728df3910f3C11B2b50",
+        "privKey": "0x32525f74e9994c1758d83e62c87faa8d9196b07bdb5e3b6f4130888482ffc98d"
+    },
+    "account7": {
+        "address": "0xBac5a5e4471596B9AFEa41B737E388a4DeB4c5a6",
+        "privKey": "0xfcad95bb2d26a218194d838f9f52fa23d042f5cc5df4627f535b1d790267c212"
+    },
+    "account8": {
+        "address": "0xc43FFd93393Ba6FcaC0c5F2e82172CaF4345cC69",
+        "privKey": "0xdc3abfcb52da03d01618d0633af917fcf9c21dcd5e6355c285a68baa0efb1fa0"
+    },
+    "account9": {
+        "address": "0xBc0a99a904d61708E317B7348Be6A3410a6dB028",
+        "privKey": "0x526ec65c455607b669626f5cc288916066c257f34facba7a0da150298c3da47d"
+    }
+}

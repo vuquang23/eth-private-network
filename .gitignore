@@ -9,3 +9,7 @@ typechain-types
 cache
 artifacts
 
+#Blockchain data
+geth
+
+*_local.txt
