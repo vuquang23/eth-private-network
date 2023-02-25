@@ -33,26 +33,6 @@ async function getCodePairKNCUSDT() {
   console.log(code);
 }
 
-async function mintKNC() {
-  const provider = ethers.getDefaultProvider('http://127.0.0.1:8652');
-  const wallet = new ethers.Wallet(accounts.account1.privKey, provider);
-
-  const contract = new ethers.Contract(addresses.KNC, knc.abi, wallet);
-  const tx = await contract.mint('100000000000000');
-  console.log(tx);
-
-  const value = await contract.totalSupply();
-  console.log(`total supply ${value}`);
-}
-
-async function mintUSDT() {
-  const provider = ethers.getDefaultProvider('http://127.0.0.1:8652');
-  const wallet = new ethers.Wallet(accounts.account1.privKey, provider);
-
-  const contract = new ethers.Contract(addresses.USDT, usdt.abi, wallet);
-  const tx = await contract.mint('9900000000000000');
-  console.log(tx);
-}
 
 async function getTotalSupply(address, token) {
   const provider = ethers.getDefaultProvider('http://127.0.0.1:8652');
@@ -78,17 +58,13 @@ async function main() {
 
   // await getCodePairKNCUSDT();
 
-
-  // await mintKNC();
-
-
-  // await mintUSDT();
-
   // await mint(accounts.account2, addresses.USDT, usdt, '12312312');
 
 
-  await getTotalSupply(addresses.USDT, usdt);
+  // await getTotalSupply(addresses.USDT, usdt);
   // await getTotalSupply(addresses.KNC, knc);
+
+  
 }
 
 
