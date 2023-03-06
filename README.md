@@ -1,13 +1,13 @@
-# Sample Hardhat Project
+1. create tokens
+```js
+    node ./scripts/create-tokens.js
+```
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+2. setup UniV2
+copy bytecode of univ2 pair to https://emn178.github.io/online-tools/keccak_256.html
+-> copy hash result to `// init code hash`
 
-Try running some of the following tasks:
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+```js
+    node ./scripts/setup-univ2.js
 ```
