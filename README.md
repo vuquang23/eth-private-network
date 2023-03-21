@@ -11,3 +11,9 @@ copy bytecode of univ2 pair to https://emn178.github.io/online-tools/keccak_256.
 ```js
     node ./scripts/setup-univ2.js
 ```
+
+
+3. setup UniV3
+```js
+    node ./scripts/setup-univ3.js
+```
