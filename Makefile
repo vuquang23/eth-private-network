@@ -7,6 +7,9 @@ alice:
 bob:
 	@geth --datadir data/bob --port 30307 --bootnodes "enode://4f6abff31195f5082911fe88679eeffa7d3bf266f4f6dfe9195825bb6c72c0a285ba3442413c546e6284bb15689b6e98a3e6173a0ff011500edfb04f6978845a@127.0.0.1:0?discport=30305" --authrpc.port 8552 --http --http.port 8652 --http.api admin,eth,debug --config data/bob/config.toml
 
+charlie:
+	@/Users/quangle/go/src/github.com/vuquang23/go-ethereum/build/bin/geth --datadir data/charlie --port 30308 --bootnodes "enode://4f6abff31195f5082911fe88679eeffa7d3bf266f4f6dfe9195825bb6c72c0a285ba3442413c546e6284bb15689b6e98a3e6173a0ff011500edfb04f6978845a@127.0.0.1:0?discport=30305" --authrpc.port 8553 --config data/charlie/config.toml
+
 reset:
 	@rm -rf ./data/alice/geth
 	@rm -rf ./data/bob/geth

@@ -1,0 +1,63 @@
+{
+    "config": {
+        "chainId": 12345,
+        "homesteadBlock": 0,
+        "eip150Block": 0,
+        "eip155Block": 0,
+        "eip158Block": 0,
+        "byzantiumBlock": 0,
+        "constantinopleBlock": 0,
+        "petersburgBlock": 0,
+        "istanbulBlock": 0,
+        "muirGlacierBlock": 0,
+        "berlinBlock": 0,
+        "londonBlock": 0,
+        "arrowGlacierBlock": 0,
+        "grayGlacierBlock": 0,
+        "clique": {
+            "period": 5,
+            "epoch": 30000
+        }
+    },
+    "difficulty": "1",
+    "gasLimit": "1000000000000000000",
+    "extradata": "0x00000000000000000000000000000000000000000000000000000000000000006FebeB89760c77164b8475cD6198d18efCFC14390000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "alloc": {
+        "6FebeB89760c77164b8475cD6198d18efCFC1439": {
+            "balance": "9999000000000000000000"
+        },
+        "3319ADf493B09E06b1FB48c729733CFFF521A6B7": {
+            "balance": "9999000000000000000000"
+        },
+        "93e38202482d9DB7dA0B60429813f87FEf3A30d0": {
+            "balance": "9999000000000000000000"
+        },
+        "eF6C8159B8F4749bc858578Be32173Ff31e5d8F0": {
+            "balance": "9999000000000000000000"
+        },
+        "556a16EeEBD557C3E449fD68Fc3466b80071d0A5": {
+            "balance": "9999000000000000000000"
+        },
+        "8f6c953977033622177843BE203E71EB00eCdbCc": {
+            "balance": "9999000000000000000000"
+        },
+        "dF4F025146CbB303FC1770B2f2b792bA6a9CB395": {
+            "balance": "9999000000000000000000"
+        },
+        "39053D8AF4D260d72FCc360830Db513F0550F788": {
+            "balance": "9999000000000000000000"
+        },
+        "84969FFfd5ba58A2621e8728df3910f3C11B2b50": {
+            "balance": "9999000000000000000000"
+        },
+        "Bac5a5e4471596B9AFEa41B737E388a4DeB4c5a6": {
+            "balance": "9999000000000000000000"
+        },
+        "c43FFd93393Ba6FcaC0c5F2e82172CaF4345cC69": {
+            "balance": "9999000000000000000000"
+        },
+        "Bc0a99a904d61708E317B7348Be6A3410a6dB028": {
+            "balance": "9999000000000000000000"
+        }
+    }
+}
